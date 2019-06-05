@@ -17,8 +17,13 @@ public class SleepyHead {
          * JOptionPane.YES_NO_OPTION);
          */
     
-
-
+       int day = JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
+                 JOptionPane.YES_NO_OPTION);
+       
+ if (day == 0 ) {
+	
+ 
+}
         /*
          * Print “sleep in” if it is a vacation or a weekend. If it’s a weekday,
          * print “get up lazybones!” If it is a weekday, and we are on vacation,
